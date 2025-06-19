@@ -17,7 +17,7 @@ const Hero = () => {
   const socialLinks = [
     { icon: Github, href: 'https://github.com/mrsiddharthsolanki', label: 'GitHub', color: 'hover:text-gray-900 dark:hover:text-white' },
     { icon: Linkedin, href: 'https://www.linkedin.com/in/siddharth-solanki-225439325/', label: 'LinkedIn', color: 'hover:text-blue-600' },
-    { icon: Twitter, href: 'https://twitter.com', label: 'Twitter', color: 'hover:text-sky-500' },
+    { icon: Twitter, href: 'https://x.com/Sid4Art2141', label: 'Twitter', color: 'hover:text-sky-500' },
   ];
 
   const skills = ['React.js', 'JavaScript', 'UI/UX Design', 'Tailwind CSS', 'Frontend Development'];
@@ -133,7 +133,7 @@ const Hero = () => {
             </motion.a>
             
             <motion.a
-              href="/siddharth-solanki-resume.pdf"
+              href="./SiddharthSolanki-Resume.pdf"
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
@@ -186,7 +186,7 @@ const Hero = () => {
           >
             {[
               { number: '20+', label: 'Projects' },
-              { number: '3+', label: 'Years Learning' },
+              { number: '1.5+', label: 'Years Learning' },
               { number: '100%', label: 'Passion' },
             ].map(({ number, label }, index) => (
               <motion.div

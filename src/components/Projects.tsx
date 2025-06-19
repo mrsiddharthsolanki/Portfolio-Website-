@@ -23,7 +23,7 @@ const Projects = () => {
       github: 'https://github.com/mrsiddharthsolanki/Appwrite_Blog',
       demo: '#',
       featured: true,
-      year: '2024'
+      year: '2025'
     },
     {
       id: 2,
@@ -35,7 +35,7 @@ const Projects = () => {
       github: 'https://github.com/mrsiddharthsolanki/Tweeter-Cone',
       demo: '#',
       featured: true,
-      year: '2024'
+      year: '2025'
     },
     {
       id: 3,
@@ -47,7 +47,7 @@ const Projects = () => {
       github: 'https://github.com/mrsiddharthsolanki/ShiftCart-ecommerce',
       demo: '#',
       featured: false,
-      year: '2023'
+      year: '2024'
     },
     {
       id: 4,
@@ -59,7 +59,7 @@ const Projects = () => {
       github: 'https://github.com/mrsiddharthsolanki/Book-MangeMent-System-/tree/main/Book%20Manger',
       demo: '#',
       featured: false,
-      year: '2023'
+      year: '2024'
     },
     {
       id: 5,
@@ -71,7 +71,7 @@ const Projects = () => {
       github: 'https://github.com/mrsiddharthsolanki',
       demo: '#',
       featured: false,
-      year: '2023'
+      year: '2025'
     },
     {
       id: 6,
@@ -83,7 +83,7 @@ const Projects = () => {
       github: 'https://github.com/mrsiddharthsolanki',
       demo: '#',
       featured: false,
-      year: '2023'
+      year: '2025'
     },
   ];
 

@@ -37,13 +37,21 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <motion.div
+            <motion.div
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent"
-          >
-            Siddharth Solanki
-          </motion.div>
+            className="flex items-center space-x-2"
+            >
+            <img 
+              src="./Logo.svg"
+              // type="image/svg+xml"
+              alt="Logo" 
+              className="h-8 w-8 rounded-full"
+            />
+            <span className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
+              Siddharth Solanki
+            </span>
+            </motion.div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">

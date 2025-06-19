@@ -177,7 +177,7 @@ const Skills = () => {
               with the latest frontend technologies and industry best practices.
             </p>
             <div className="flex flex-wrap justify-center gap-3">
-              {['Advanced React Patterns', 'TypeScript', 'Next.js', 'Backend Development', 'Mobile Development'].map((topic) => (
+              {['Advanced React Patterns', 'TypeScript', 'Next.js', 'Backend Development'].map((topic) => (
                 <span
                   key={topic}
                   className="bg-gradient-to-r from-blue-100 to-purple-100 dark:from-blue-900/30 dark:to-purple-900/30 px-4 py-2 rounded-full text-sm font-medium text-gray-700 dark:text-gray-300"
