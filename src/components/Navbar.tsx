@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, Sun, Moon } from 'lucide-react';
 import { useTheme } from '../contexts/ThemeContext';
+import Logo from '../assets/Logo.svg';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -43,7 +44,7 @@ const Navbar = () => {
             className="flex items-center space-x-2"
             >
             <img 
-              src="./Logo.svg"
+              src={Logo}
               // type="image/svg+xml"
               alt="Logo" 
               className="h-8 w-8 rounded-full"
